@@ -24,5 +24,20 @@ time.sleep(5)
 ```
 mac上安装如果提示没有权限，在命令行前➕sudo 
 ## 三、常用 Server Argument 讲解  
+```
+此处有表哥占位
+```
+例如：
+```
+$ appium --address 0.0.0.0 --port 4723 --log "C:\appium.log" --log-timestamp --local-timezone --session-override
+```
+若你使用 mac ，请把日志位置从 "C:\appium.log" 改为 "~/appium.log"  
+## 四、Desired Capabilities参数配置及含义  
+```
+此处有表格占位
+```
+以上为部分常用配置，从appActivity开始为Android特有的，iOS此处暂时不做考虑，详细的请参考：https://www.cnblogs.com/wysk/p/7346659.html  
+## 五、Desired Capabilities使用  
+
 
 
